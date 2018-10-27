@@ -1,0 +1,39 @@
+body{
+   background-image: url(./images/rawpixel-800834-unsplash.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgba(61, 61, 61, 0.8); 
+    padding-top: 25px;
+    padding-bottom: 25px;   
+    font-size: 3em;
+    text-shadow: 2px 2px 2px rgb(117, 35, 35);
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+    padding: 100px;
+}
+
+.mini-container {
+    background-color: rgba(231, 231, 231, 0.8); 
+    padding: 20px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+#order-total {
+    font-weight: bold;
+}
